@@ -1,9 +1,11 @@
 import { Button } from "antd";
+import Title from "antd/es/typography/Title";
 
-const Home = () => (
+const HomePage = () => (
   <div className="App">
-    <Button type="primary">Button</Button>
+    <Title>Home Page</Title>
+    <Button type="primary">Click Me !!</Button>
   </div>
 );
 
-export default Home;
+export default HomePage;
