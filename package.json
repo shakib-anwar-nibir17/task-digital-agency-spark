@@ -1,5 +1,5 @@
 {
-  "name": "task-digital-agency-spark",
+  "name": "nextjs-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/nextjs-registry": "^1.0.0",
-    "antd": "^5.19.0",
-    "next": "14.2.4",
+    "@ant-design/cssinjs": "^1.18.0-alpha.0",
+    "antd": "^5.11.2",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.0.3",
+    "typescript": "^5"
   }
 }
